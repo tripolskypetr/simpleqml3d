@@ -10,6 +10,12 @@ Entity {
     property real z: 0
     property real scale: 1.0
 
+    Texture2D{
+        id: texture
+        TextureImage {
+            source: "qrc:/man.png"
+        }
+    }
 
     //COPY RenderableEntity.qml in your project!!!!!!
     RenderableEntity{
@@ -20,7 +26,7 @@ Entity {
 
         material: DiffuseMapMaterial {
             id: material
-            diffuse: "qrc:/man.png" //Path to the texture image. You can get it by converting .tga to .png
+            diffuse:  texture
             specular: Qt.rgba( 0.2, 0.2, 0.2, 1.0 )
             shininess: 2.0
         }
