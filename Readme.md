@@ -12,4 +12,8 @@ Question:
 > Qt 5.7, maybe 5.8 now! And at first glance, there is some texture propperties for
 > the mesh.
 
+Result:
+
+![gitanimation](video.gif)
+
 from [here](https://stackoverflow.com/questions/42907586/qml-apply-a-texture-to-a-mesh)
